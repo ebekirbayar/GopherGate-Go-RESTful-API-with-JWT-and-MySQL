@@ -45,7 +45,7 @@ cd GopherGate-Go-RESTful-API-with-JWT-and-MySQL
 ```
 
 ```bash
-git go mod tidy
+go mod tidy
 ```
 
 ```bash
@@ -95,7 +95,7 @@ Authorization: Bearer your_jwt_token
 ```
 
 <p align="center">
-    <img src="img/1.png" alt="Preview" width="auto" height="400">
+    <img src="img/1.png" alt="Preview" width="auto" height="auto">
 </p>
 <p align="center">
     <img src="img/2.png" alt="Preview" width="auto" height="400">
