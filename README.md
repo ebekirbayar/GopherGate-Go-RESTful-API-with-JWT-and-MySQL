@@ -56,7 +56,7 @@ go run main.go
 - POST /api/auth/register: Create a new user.
 - POST /api/auth/login: Authenticate a user.
 - GET /api/users: Retrieve all users based on user roles.
-- GET /api/users/{id}: Retrieve a specific user by ID.
+- GET /api/users/me: Retrieve a specific user by ID.
 - PUT /api/users/{id}: Update user information.
 - DELETE /api/users/{id}: Delete a user.
 ## Request Examples
@@ -104,7 +104,7 @@ Authorization: Bearer your_jwt_token
     <img src="img/2a.png" alt="Preview" width="auto" height="400">
 </p>
 <p align="center">
-    <img src="img/2c.png" alt="Preview" width="auto" height="400">
+    <img src="img/2b.png" alt="Preview" width="auto" height="400">
 </p>
 <p align="center">
     <img src="img/3.png" alt="Preview" width="auto" height="400">
