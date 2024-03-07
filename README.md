@@ -53,15 +53,16 @@ go run main.go
 ```
 ## Usage
 ### Endpoints
-POST /api/users/create: Create a new user.
-POST /api/users/login: Authenticate a user.
-GET /api/users: Retrieve all users based on user roles.
-GET /api/users/{id}: Retrieve a specific user by ID.
-PUT /api/users/{id}: Update user information.
-DELETE /api/users/{id}: Delete a user.
+- POST /api/auth/register: Create a new user.
+- POST /api/auth/login: Authenticate a user.
+- GET /api/users: Retrieve all users based on user roles.
+- GET /api/users/{id}: Retrieve a specific user by ID.
+- PUT /api/users/{id}: Update user information.
+- DELETE /api/users/{id}: Delete a user.
 ## Request Examples
 
 POST /api/auth/register
+
 ```JS
 
 Content-Type: application/json
