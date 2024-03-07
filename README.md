@@ -104,7 +104,7 @@ Authorization: Bearer your_jwt_token
     <img src="img/2a.png" alt="Preview" width="auto" height="400">
 </p>
 <p align="center">
-    <img src="img/2b.png" alt="Preview" width="auto" height="400">
+    <img src="img/2b.png" alt="Preview" width="auto" height="100">
 </p>
 <p align="center">
     <img src="img/3.png" alt="Preview" width="auto" height="400">
