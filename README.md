@@ -22,10 +22,6 @@
 
 ## About The Project
 
-<p align="center">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
-</p>
-
 ## Features
 
 - **User Creation**: Allows the creation of new users with unique email addresses.
