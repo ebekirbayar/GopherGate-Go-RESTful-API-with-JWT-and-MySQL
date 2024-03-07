@@ -71,9 +71,11 @@ POST /api/auth/register
 Content-Type: application/json
 
 {
-  "email": "user@example.com",
-  "password": "password123"
+    "userEmail": "gopher.gate@gmail.com",
+    "userName": "gopher_gate",
+    "userPassword": "123456789"
 }
+
 ```
 
 POST /api/auth/login
@@ -82,19 +84,21 @@ POST /api/auth/login
 Content-Type: application/json
 
 {
-  "email": "user@example.com",
-  "password": "password123"
+    "userEmail": "gopher.gate@gmail.com",
+    "userPassword": "123456789"
 }
+
 ```
 
 GET /api/users
 
 ```JS
 Authorization: Bearer your_jwt_token
+
 ```
 
 <p align="center">
-    <img src="img/1.PNG" alt="Preview" width="auto" height="400">
+    <img src="img/1.png" alt="Preview" width="auto" height="400">
 </p>
 <p align="center">
     <img src="img/2.PNG" alt="Preview" width="auto" height="400">
